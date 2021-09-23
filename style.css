@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+  width: 100%;
+  white-space: nowrap;
+}
+
+body {
+  background-color: white;
+  max-width: max-content;
+  margin: auto;
+}
+
+p {
+  color: #4d4f53;
+  font-family: SourceSansPro-Regular;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+h1 {
+  font-family: SourceSansPro-Regular;
+  color: solid #4d4f53;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
+  text-align: left;
+}
+
+h2 {
+  font-family: SourceSansPro-Semibold;
+  color: #4d4f53;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+}
+
+h3 {
+  font-family: SourceSansPro-Regular;
+  color: #027c92;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0rem;
+}
+
+.info::after {
+  display: inline-block;
+  content: "";
+  border: 0.1rem solid #c7c4c4;
+  width: 100%;
+  transform: translateY(-0.7rem);
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+.info1a {
+  width: 100%;
+  margin-left: 10.8rem;
+}
+
+.info1b {
+  display: inline-block;
+}
+
+img {
+  height: 6.8rem;
+  width: 8.8rem;
+  margin-right: 2rem;
+  float: left;
+}
+
+.spacing1 {
+  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+}
+
+.spacing2 {
+  margin-bottom: 0.8rem;
+  margin-top: 0rem;
+}
+
+.spacing3 {
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+}
+
+/*
+//couldn't get "span" to work with phone number, so used "b" instead
+.bold {
+  font-family: SourceSansPro-Semibold;
+  color: #4d4f53;
+  font-size: 1.5rem;
+}
+*/
